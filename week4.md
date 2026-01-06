@@ -3,9 +3,16 @@
 ## SSH Key-Based Authentication
 Generated keys on Kali and copied to server (192.168.56.105). Edited /etc/ssh/sshd_config to disable password auth. Successful connection without password.
 
+#### SSH Key Generation
+
 ![SSH Key Generation ](images/week4_ssh_keygen1.png)
 
+#### SSH Key Copy
+
 ![SSH Key Copy](images/week4_ssh_keygen2.png)
+
+
+#### SSH Connection
 
 ![SSH Connection](images/week4_ssh_connect.png)
 
@@ -31,5 +38,6 @@ Before/after for /etc/ssh/sshd_config (e.g., PasswordAuthentication no).
 Ran sample commands (ls, whoami) via SSH on server from Kali, demonstrating remote CLI management.
 
 ![Remote Commands](images/week4_remote_commands.png)
+
 
 **Reflection:** This implements LO3 security mechanisms (key auth, firewall) and LO4 CLI tasks. Trade-off: Enhanced security reduces usability (no password fallback). Challenge: Ensuring key copy without initial password exposure.
