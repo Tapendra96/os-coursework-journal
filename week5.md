@@ -64,4 +64,5 @@ Monitor Execution
 ![Monitor Execution](images/week5_MonitorExecution3.png)
 
 
-#### Reflection: Advanced controls address LO3 (intrusion detection, MAC). Scripts demonstrate LO4 proficiency. Trade-off: Automation adds overhead (e.g., fail2ban 24.7M memory) but improves monitoring. Learned error handling in bash.
+**Reflection:** Advanced controls address LO3 (intrusion detection, MAC). Scripts demonstrate LO4 proficiency. Trade-off: Automation adds overhead (e.g., fail2ban 24.7M memory) but improves monitoring. Learned error handling in bash.
+
