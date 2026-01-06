@@ -9,6 +9,7 @@
 | Network-Intensive | iperf3      | Measures bandwidth/latency.            |
 | Server App        | apache2     | Simple web server for response times.  |
 
+
 ![Selection Matrix](images/week3_matrix.png)
 
 ## Installation Documentation
@@ -31,4 +32,5 @@ For each app: Use top for CPU/memory, iostat for I/O, iperf3 for network, ping f
 
 ![Monitoring Strategy](images/week3_strategy.png)
 
-**Reflection:** Selected apps align with LO4 for CLI usage and LO5 for evaluating workloads. Trade-off: Simple apps ease testing but may not simulate real-world complexity. Learned about resource-specific tools.
+
+**Reflection:** Selected apps align with LO4 for CLI usage and LO5 for evaluating workloads. Trade-off: Simple apps ease testing but may not simulate real-world complexity. Learned about some resource-specific tools.
